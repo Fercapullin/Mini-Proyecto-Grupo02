@@ -1,0 +1,42 @@
+.header{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    box-sizing: border-box;
+    transition: 0.5s;
+
+}
+.logo{
+    height: 80%;
+    
+}
+.button{
+    text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 100px;
+	color: #fff;
+	border: none;
+	background: #1766DC;
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	transition: .3s ease all;
+    margin-left: 10px;
+}
+.button:hover{
+    
+		background: #0066FF;
+	
+}
+.menu-icon{
+    color: #fff;
+    font-size: 30px;
+    display: none;
+}
