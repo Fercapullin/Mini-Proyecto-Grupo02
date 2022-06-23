@@ -45,9 +45,10 @@ function Slideshow() {
                         <div className="slide" key={index}>
                             <img
                                 src={news.urlToImage}
+                                className="img_five_news"
                             />
                             <div className="news_five_title">
-                                <h5>{news.title}</h5>
+                                <h2>{news.title}</h2>
                             </div>
                         </div>
                     ))}
