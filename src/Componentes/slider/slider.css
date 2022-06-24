@@ -22,3 +22,6 @@
     font-size: 25px;
     opacity: 20;
 }
+.carousel .slide img{
+    height: 600px;
+}

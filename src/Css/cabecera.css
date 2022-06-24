@@ -16,7 +16,8 @@
 }
 .logo{
     height: 80%;
-    
+    text-decoration: none;
+    padding: 10px 30px;
 }
 .button{
     text-decoration: none;
@@ -32,9 +33,7 @@
     margin-left: 10px;
 }
 .button:hover{
-    
-		background: #0066FF;
-	
+    background: #0066FF;
 }
 .menu-icon{
     color: #fff;
