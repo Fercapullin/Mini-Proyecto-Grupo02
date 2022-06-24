@@ -2,13 +2,13 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 import '../../styles.css';
-import '../../Css/cabecera.css'
+import './navbar.css'
 
 export const Navbar = () => {
     return (
         <nav className="header">
             <NavLink className="logo" to={"/"}><div className="div_news">News <span className="span_news">App</span></div></NavLink>
-            <div>
+            <div className="div_category_buttons">
                 <Link className="category_button" to={"business"}>Negocios</Link>
                 <Link className="category_button" to={"entertainment"}>Entretenimiento</Link>
                 <Link className="category_button" to={"general"}>General</Link>
