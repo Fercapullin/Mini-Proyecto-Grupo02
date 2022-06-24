@@ -5,7 +5,7 @@ import logo from "../img/logo_app.png";
 import { Link } from "react-router-dom";
 import '../styles.css'
 import "../Css/cabecera.css";
-import Slideshow from "./slider/Slider";
+import { Slider } from "./slider/Slider";
 
 export const News = (props) => {
     const { getData } = useContext(NewsContext);
@@ -19,10 +19,10 @@ export const News = (props) => {
                 <Link to="login" className="button"> Iniciar Sesion </Link>
                 <Link to="registro" className="button"> Registrate </Link>
             
-            <i className="menu-icon fa-solid fa-bars"></i>
+            <i className="menu-icono fa-solid fa-bars"></i>
             </ul>
         </header>
-        <Slideshow/>
+        <Slider/>
         <div className="all_notices">
             {getData.articles ? (
             getData.articles.map((news) => (

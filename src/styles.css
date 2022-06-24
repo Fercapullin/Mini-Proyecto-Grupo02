@@ -18,7 +18,6 @@ body{
 .all_notices{
     max-width: 60%px;
     display: grid;
-    margin-top: 500px;
     padding-top: 96px;
     grid-template-columns: repeat(auto-fill, 350px);
     place-content: center;
@@ -39,10 +38,13 @@ body{
     .button{
         display: none;
     }
-    .menu-icon{
+    .menu-icono{
+        font-size: 40px;
         color: #fff;
         display: block;
+
     }
+
 
 }
 
