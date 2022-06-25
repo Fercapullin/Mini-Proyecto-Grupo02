@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route, NavLink, Link} from 'react-router-dom'
+import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import { Navbar } from './Componentes/navbar/Navbar'
 import { News } from './Componentes/news/News'
 import { AppLogin } from './Login/AppLogin'
@@ -19,6 +19,7 @@ export const Routers = () => {
             <Routes>
                 <Route path='/' element ={ <News/> }/>
                 <Route path='login' element = {<AppLogin/>}/>
+                <Route path='login/:profile' element = {<AppLogin/>}/>
                 <Route path='registro' element = {<AppRegistro/>}/>
                 <Route path='/sports' element={<Sports/>}/>
                 <Route path='/technology' element={<Technology/>}/>
@@ -27,7 +28,7 @@ export const Routers = () => {
                 <Route path='/general' element={<General/>}/>
                 <Route path='/entertainment' element={<Entertainment/>}/>
                 <Route path='/business' element={<Business/>}/>
-                <Route path='*' element={<div>No found Page</div>}/>
+                <Route path='*' element={<Navigate replace to={"/"}/>}/>
             </Routes>
             </BrowserRouter>
         </div>

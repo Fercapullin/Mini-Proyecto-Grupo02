@@ -2,12 +2,12 @@ import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
 import '../../styles.css';
-import '../../Css/cabecera.css'
+import './navbar.css'
 
 export const Navbar = () => {
     return (
         <nav className="header">
-            
+
             <NavLink className="logo" to={"/"}><div className="div_news">News <span className="span_news">App</span></div></NavLink>
             <i className="search fa-solid fa-magnifying-glass"></i>
             <ul>

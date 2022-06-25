@@ -5,7 +5,6 @@ import { Slider } from "../slider/Slider";
 import { Navbar } from '../navbar/Navbar';
 import '../../styles.css'
 import './news.css'
-import "../../Css/cabecera.css";
 
 export const News = () => {
     const { getData } = useContext(NewsContext);

@@ -6,7 +6,7 @@ export const NewsContext = createContext();
 export const NewsContextProvider = (props) => {
      const [getData, setGetData] = useState([]);
      const [slideFiveNews, setSlideFiveNews] = useState([]);
-     const apiKey = '5e092c2e0a6d494f8f633cd145b5b8b1';
+     const apiKey = '2c8d1fe384c142558c2ccf54f4b0cb62';
      const URL_API_SOURCE = "https://newsapi.org/v2/top-headlines?country=us&category="
      const date = new Date().toLocaleDateString().split('/').reverse().join('-'); 
 
